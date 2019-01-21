@@ -26,7 +26,7 @@ LIB_DIRS = [
 
 $CFLAGS += " -std=c99 -fno-common -fno-strict-aliasing -fPIC"
 
-$LDFLAGS += " -laerospike -lssl -lcrypto -lpthread -pthread -lrt -lm -lz"
+$LDFLAGS += " -laerospike -lssl -lcrypto -lpthread -pthread -lm -lz"
 
 $warnflags.gsub!('-Wdeclaration-after-statement', '') if $warnflags
 
